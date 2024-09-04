@@ -6,7 +6,7 @@
 4. usually git commands are written in a code editor instead of git bash, for smoother dev operations.
 5. open integrated terminal in vscode
 
-# Getting started
+## Getting started
 1. **clone command** - clone repo on local machine (laptop). remote machine is github - `git clone [https-link]`.
 2. `cd` - change directory to move within folders in the repo
 3. to view all files in the folder - `ls`
@@ -16,7 +16,7 @@
 - modified : changed
 - staged : file is ready to be committed
 - unmodified : unchanged
-# Making changes to local repo
+## Making changes to local repo
 1. **add command** - adds new or changed files in your working directory to the git staging area - `git add <file-name>`.
 2. **commit command** - it is the record of the change `git commit -m "some message"`. `-m` is used to write a message.
 3. to add all the files - `git add .` , all the files that have changes in them get added.

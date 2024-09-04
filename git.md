@@ -1,10 +1,10 @@
-# Introduction
 ## Setting up Git on local machine
 1. set user email - `git config --global user.email "email-id"` , has to be the same email address using which you set up an account on github
 2. set user name - `git config --global user.name "name"`
 3. to see what changes are done using the `git config` command - `git config --list`
 4. usually git commands are written in a code editor instead of git bash, for smoother dev operations.
 5. open integrated terminal in vscode
+6. `--global` flag - 
 
 ## Getting started
 1. **clone command** - clone repo on local machine (laptop) - `git clone [https-link]`. (remote repo - github).
@@ -56,6 +56,15 @@
     7. `-u` flag could be used to set upstream. this basically means that you let github know that you will be working on the main branch itself. this means you do not need to mention `origin main` everytime in the command. simply use the command - `git push` and that would mean the current committed changes have to be pushed to origin main. it is a shortform.
 
     8. now you could create `README.md` -> `git add .` -> `git commit -m "message"` -> `git push`
+
+Best pracitce is create a new project on GitHub itself and clone it to the system.
+
+## Workflow 
+
+Your ideal workflow would look like - 
+
+Create GitHub repo -> clone -> changes -> add -> commit -> push
+
 
 
 
